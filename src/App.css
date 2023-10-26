@@ -45,3 +45,19 @@
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
 }
+.userList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.userList li {
+  margin: 10px auto;
+  list-style-type: none;
+  height: 100px;
+  width: 320px;
+  background-color: #282c34;
+  color: white;
+  border-bottom: 1px solid white;
+}
